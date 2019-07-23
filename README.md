@@ -58,6 +58,15 @@ Functions in the package:
 12. rnbs.m : the times that one point is contained by the neighborhood
     of other points.
 
+Usage
+-----
+
+A sample example can be found in tests.m. Remember to use ‘clean all’ to
+clean all the persist variables in the package. The package supports
+other distance metrics; however, only the euclidean metric is tested.
+So, it temporarily prevents outlier metric. The user is welcome to alter
+the code in dataSet.m for using other distance metrics.
+
 References
 ----------
 
